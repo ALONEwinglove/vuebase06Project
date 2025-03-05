@@ -4,7 +4,7 @@ import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router
 const router = createRouter({
   // 访问前缀--环境变量
   // history: createWebHistory(import.meta.env.BASE_URL),
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory('/vuebase06Project/'),
   // 路由规则
   routes: [
     {
@@ -23,10 +23,10 @@ const router = createRouter({
           path: '',
           redirect: '/article/classification',
         },
-        {
-          path: '/',
-          redirect: '/article/classification',
-        },
+        // {
+        //   path: '/',
+        //   redirect: '/article/classification',
+        // },
         {
           path: '/article/classification',
           component: () => import('@/views/article/ArticleClassification.vue')
