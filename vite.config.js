@@ -11,8 +11,8 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // base: '/vuebase06Project/',
-  base: process.env.NODE_ENV === 'production' ? '/vuebase06Project/' : '/', 
+  base: './',
+  // base: process.env.NODE_ENV === 'production' ? '/vuebase06Project/' : '/', 
   plugins: [
     vue(),
     vueDevTools(),
