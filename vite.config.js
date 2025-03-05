@@ -11,8 +11,8 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vite.dev/config/
 export default defineConfig({
-  publicPath: './',
-  // base: './',
+  // publicPath: './',
+  base: './',
   plugins: [
     vue(),
     vueDevTools(),
