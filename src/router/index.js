@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   // 访问前缀--环境变量
-  history: createWebHistory(import.meta.env.BASE_URL),
+  // history: createWebHistory(import.meta.env.BASE_URL),
   // 路由规则
   routes: [
     {
